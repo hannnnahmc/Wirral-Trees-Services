@@ -115,13 +115,13 @@
       function sendEmail() {
         var service_id = 'gmail';
         var template_id = 'template_Ue2hDZLx';
-        var fromFirstName = $('.uk-input[placeholder="First Name"]').value;
-        var fromLastName = $('.uk-input[placeholder="Last Name"]').value;
+        var fromFirstName = document.getElementsByClassName('uk-input')[0].value;
+        var fromLastName = document.getElementsByClassName('uk-input')[1].value;
         var template_params = {
           from_name: fromFirstName + " " + fromLastName,
-          reply_to: $('.uk-input[placeholder="Email Address"]').value,
-          message: $('.uk-textarea[placeholder="Your Message"]').value,
-          phone_number: $('.uk-input[placeholder="Contact Number"]').value 
+          reply_to: document.getElementsByClassName('uk-input')[3].value,
+          message: document.getElementsByClassName('uk-textarea')[0].value,
+          phone_number: document.getElementsByClassName('uk-input')[2].value
         };
 
         emailjs.send(service_id,template_id,template_params);
