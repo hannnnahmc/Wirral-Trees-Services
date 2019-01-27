@@ -8491,56 +8491,38 @@ h2, h3, h4, h5, h6 {
     width: calc(100% - 30px);
     padding: 15px;
     font-weight: 600; }
-  .image--blog1, .image--wine-header {
-    background-image: url("/images/wine-header.jpg"); }
-  .image--vegan-wine {
-    background-image: url("/images/vegan-wine.jpg"); }
   .image--services {
-    background-image: url("/images/tree-surgery.jpeg"); }
+    background-image: url("/pages/images/tree-surgery.jpeg"); }
   .image--qualifications {
-    background-image: url("/images/qualifications.jpg"); }
+    background-image: url("/pages/images/qualifications.jpg"); }
   .image--firewood {
-    background-image: url("/images/logs-1.jpeg"); }
+    background-image: url("/pages/images/logs-1.jpeg"); }
   .image--tree {
-    background-image: url("/images/tree.jpeg"); }
+    background-image: url("/pages/images/tree.jpeg"); }
   .image--chipper {
-    background-image: url("/images/chipper.jpeg"); }
+    background-image: url("/pages/images/chipper.jpeg"); }
   .image--intree {
-    background-image: url("/images/in-a-tree.png"); }
+    background-image: url("/pages/images/in-a-tree.png"); }
   .image--job-3 {
-    background-image: url("/images/job-3.jpeg"); }
+    background-image: url("/pages/images/job-3.jpeg"); }
   .image--job-14 {
-    background-image: url("/images/job-14.jpeg"); }
+    background-image: url("/pages/images/job-14.jpeg"); }
   .image--crown-reductions {
-    background-image: url("/images/crown-reductions.jpeg"); }
+    background-image: url("/pages/images/crown-reductions.jpeg"); }
   .image--crown-lifting {
-    background-image: url("/images/crown-lifting.jpeg"); }
+    background-image: url("/pages/images/crown-lifting.jpeg"); }
   .image--job-20 {
-    background-image: url("/images/job-20.jpeg"); }
+    background-image: url("/pages/images/job-20.jpeg"); }
   .image--job-29 {
-    background-image: url("/images/job-29.jpeg"); }
+    background-image: url("/pages/images/job-29.jpeg"); }
   .image--job-21 {
-    background-image: url("/images/job-21.jpeg"); }
+    background-image: url("/pages/images/job-21.jpeg"); }
   .image--job-30 {
-    background-image: url("/images/job-30.jpeg"); }
+    background-image: url("/pages/images/job-30.jpeg"); }
   .image--course-2 {
-    background-image: url("/images/course-2.jpeg"); }
+    background-image: url("/pages/images/course-2.jpeg"); }
   .image--during-job-13 {
-    background-image: url("/images/during-job-13.jpeg"); }
-  .image--wine1 {
-    background-image: url("/images/wine1.png"); }
-  .image--wine2 {
-    background-image: url("/images/wine2.png"); }
-  .image--wine3 {
-    background-image: url("/images/wine3.png"); }
-  .image--wine4 {
-    background-image: url("/images/wine4.png"); }
-  .image--wine5 {
-    background-image: url("/images/wine5.png"); }
-  .image--wine6 {
-    background-image: url("/images/wine6.png"); }
-  .image--wine7 {
-    background-image: url("/images/wine7.png"); }
+    background-image: url("/pages/images/during-job-13.jpeg"); }
 
 .input .uk-form-icon {
   color: #E07D29; }
@@ -9186,17 +9168,10 @@ h2, h3, h4, h5, h6 {
     color: white;
     text-shadow: 2px 2px 10px #000; }
   .hero--section {
-    background-image: url("/images/vegan-wine.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 100px 0; }
-  .hero--article {
-    background-image: url("/images/wine-header.jpg"); }
-  .hero--producers {
-    background-image: url("/images/producer-header.jpg"); }
-  .hero--grape-varieties {
-    background-image: url("/images/grape-varieties.jpg"); }
 
 .other-regions {
   padding: 60px 30px;
