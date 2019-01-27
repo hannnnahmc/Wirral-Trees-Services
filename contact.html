@@ -59,7 +59,7 @@
           <input class="uk-input" type="text" placeholder="Email Address">
         </div>
         <textarea class="uk-textarea" cols="30" rows="5" placeholder="Your Message"></textarea>
-        <button type="button" class="form-send--button">Send</button>
+        <button type="button" onclick="sendEmail();" class="form-send--button">Send</button>
       </fieldset>
     </form>
     <footer class="footer uk-section uk-section-secondary uk-light">
@@ -111,6 +111,21 @@
       (function(){
          emailjs.init("user_jSSrDNUJ6Xe15dHrM4GES");
       })();
+
+      function sendEmail() {
+        var service_id = 'gmail';
+        var template_id = 'template_Ue2hDZLx';
+        var fromFirstName = $('.uk-input[placeholder="First Name"]').value;
+        var fromLastName = $('.uk-input[placeholder="Last Name"]').value;
+        var template_params = {
+          from_name: fromFirstName + " " + fromLastName,
+          reply_email: $('.uk-input[placeholder="Email Address"]').value,
+          message: $('.uk-textarea[placeholder="Your Message"]').value,
+          phone_number: $('.uk-input[placeholder="Contact Number"]').value 
+        };
+
+        emailjs.send(service_id,template_id,template_params);
+      }
     </script>
   </body>
 </html>
