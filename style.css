@@ -4990,10 +4990,10 @@ ul.uk-nav-sub {
    padding: 15px;
    background-color: #E07D29; }
    
-.uk-container .nav-header h1 {
+.nav-header .uk-container h1 {
    display: none; }
 
-.uk-container .nav-header img {
+.nav-header .uk-container img {
    width: 90%; }
 }
 
