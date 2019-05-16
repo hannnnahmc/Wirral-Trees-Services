@@ -4985,7 +4985,16 @@ ul.uk-nav-sub {
   z-index: 1000; }
    
 .uk-navbar-toggle {
-   display: block; }
+   display: block;
+   min-height: 50px;
+   padding: 10px;
+   background-color: #E07D29; }
+   
+.nav-header h1 {
+   display: none; }
+
+.nav-header img {
+   width: 90%; }
 }
 
 /*
