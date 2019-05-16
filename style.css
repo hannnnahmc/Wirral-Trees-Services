@@ -4987,13 +4987,13 @@ ul.uk-nav-sub {
 .uk-navbar-toggle {
    display: block;
    min-height: 50px;
-   padding: 10px;
+   padding: 15px;
    background-color: #E07D29; }
    
-.nav-header h1 {
+.uk-container .nav-header h1 {
    display: none; }
 
-.nav-header img {
+.uk-container .nav-header img {
    width: 90%; }
 }
 
