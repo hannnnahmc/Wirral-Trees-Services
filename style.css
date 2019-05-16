@@ -3630,7 +3630,9 @@ ul.uk-nav-sub {
 /* Toggle
  ========================================================================== */
 .uk-navbar-toggle {
-  color: #999; }
+  color: #999;
+  display: none;
+}
 
 .uk-navbar-toggle:hover,
 .uk-navbar-toggle:focus,
@@ -4976,15 +4978,15 @@ ul.uk-nav-sub {
  * 1. Hide by default
  * 2. Set position
  */
+@media (max-width: 768px) {
 .uk-offcanvas {
   /* 1 */
   display: none;
-  /*
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;*/
   z-index: 1000; }
+   
+.uk-navbar-toggle {
+   display: block; }
+}
 
 /*
  * Flip modifier
