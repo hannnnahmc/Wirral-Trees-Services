@@ -8861,8 +8861,10 @@ h2, h3, h4, h5, h6 {
       height: 100%;
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
       border-radius: 3px; }
-  .image-grid a:last-of-type {
-    margin: 0; }
+  .image-grid a:nth-child(4) {
+     margin-top: 0; }
+  .image-grid a:nth-child(4n) {
+    margin-right: 0; }
 
 @media (max-width: 480px) {
   .uk-container .image-grid a {
