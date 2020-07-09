@@ -8786,7 +8786,7 @@ h2, h3, h4, h5, h6 {
   .explore-grid a {
     display: block;
     height: 300px;
-    width: calc(33% - 16px);
+    width: calc(33% - 18px);
     margin: 0 30px 0 0;
     padding: 0;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
